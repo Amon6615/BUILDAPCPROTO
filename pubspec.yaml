@@ -1,0 +1,28 @@
+name: my_new_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^0.22.0
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Add assets section correctly
+  assets:
+    - assets/images/BUILDAPCSPLASH.png
+    - assets/images/BUILDAPCLOGOSPLASH.png
+    - assets/images/SPLASHSCREEN.svg
